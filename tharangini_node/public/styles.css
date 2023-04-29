@@ -1,0 +1,122 @@
+.menu-container{
+  display: grid;
+  text-align: center;
+}
+
+html{
+  overflow:scroll;
+}
+
+h1,h3{
+  color:white;
+  font-family: Georgia, serif;
+			font-weight: bold; 
+}
+
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* creates 3 columns */
+  grid-template-rows: repeat(3, 1fr); /* creates 2 rows */
+  gap: 5px;
+  background-color: lightblue;
+  padding: 0px;
+  list-style: none;
+  margin: 0;
+}
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  
+}
+.Header:hover,.display2:hover,.display3:hover,
+.display4:hover,.display5:hover,.display6:hover,
+.display7:hover,.display8:hover,.display9:hover{
+ 
+  background-color: #555;
+}
+
+
+
+
+.menu li a:hover{
+  background-color: #555;
+}
+
+
+
+.profile-img {
+  margin-top: 20px;
+  margin-left: 90px;
+  width: 150px; 
+  height: 150px; 
+  border-radius: 100%; 
+}
+
+section {
+  padding: 20px;
+}
+
+.contact-section:hover
+{
+  background-color: #555;
+}
+.contact-section {
+  
+  text-align: center;
+  line-height: 25px; /* replace with the height of the container */
+
+  align-items: center;
+  margin-top: 0px;
+  justify-content: center;
+  
+  grid-area: footer;
+  grid-row-start: footer;
+  grid-column-start: footer;
+  grid-row-end: footer;
+  grid-column-end: footer;
+}
+
+
+.contact-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  
+}
+
+.contact-details {
+
+  align-items: center;
+}
+
+.contact-details img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-details a {
+  font-size: 1em;
+  color: #333;
+}
+
+@media only screen and (max-width:500px){
+  body{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 0.001fr 1fr 1fr 0.02fr;
+      grid-template-areas: 
+      "nav" "Header" "display2" "display3" "display4"  "display5" "display6" "contact-section";
+      grid-gap:0.01rem;
+  }
+  nav,footer,section,aside{
+      width:10px;    
+  }
+
+}
+

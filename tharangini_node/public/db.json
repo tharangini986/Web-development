@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "6446e610495ccf74d00892eb",
+    "city": "hyderabad",
+    "country": "UK",
+    "latitude": 51.507351,
+    "longitude": -0.127758,
+    "temperature": 12,
+    "humidity": 73,
+    "wind_speed": 10,
+    "wind_direction": "S",
+    "description": "Light Rain"
+  },
+  {
+    "_id": "6446e610495ccf74d00892ed",
+    "city": "Sydney",
+    "country": "AU",
+    "latitude": -33.865143,
+    "longitude": 151.2099,
+    "temperature": 25,
+    "humidity": 60,
+    "wind_speed": 8,
+    "wind_direction": "SE",
+    "description": "Sunny"
+  },
+  {
+    "_id": "6446e610495ccf74d00892ee",
+    "city": "Dubai",
+    "country": "AE",
+    "latitude": 25.204849,
+    "longitude": 55.270782,
+    "temperature": 35,
+    "humidity": 40,
+    "wind_speed": 15,
+    "wind_direction": "W",
+    "description": "Clear Sky"
+  },
+  {
+    "_id": "6446e610495ccf74d00892ea",
+    "city": "New York",
+    "country": "US",
+    "latitude": 40.712776,
+    "longitude": -74.005974,
+    "temperature": 18,
+    "humidity": 68,
+    "wind_speed": 5,
+    "wind_direction": "NE",
+    "description": "Partly Cloudy"
+  },
+  {
+    "_id": "6446e610495ccf74d00892ec",
+    "city": "Tokyo",
+    "country": "JP",
+    "latitude": 35.676192,
+    "longitude": 139.650311,
+    "temperature": 22,
+    "humidity": 50,
+    "wind_speed": 3,
+    "wind_direction": "E",
+    "description": "Clear Sky"
+  }
+]
